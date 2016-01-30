@@ -20,5 +20,9 @@ class TestCalculator < MiniTest::Unit::TestCase
   def test_division
     assert_equal 5, @cal.divide(20,4)
   end
+  
+  def test_multiplication
+    assert_equal 25, @cal.multiply(5,5)
+  end
 
 end
