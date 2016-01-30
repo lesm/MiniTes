@@ -17,4 +17,8 @@ class TestCalculator < MiniTest::Unit::TestCase
     assert_equal 2, @cal.subtract(8,6)
   end
 
+  def test_division
+    assert_equal 5, @cal.divide(20,4)
+  end
+
 end
