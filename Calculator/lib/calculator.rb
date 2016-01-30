@@ -1,7 +1,7 @@
 class Calculator
 
-  def add 
-    4
+  def add num_uno, num_dos
+    num_uno + num_dos
   end
 
 end
