@@ -13,4 +13,8 @@ class TestCalculator < MiniTest::Unit::TestCase
     assert_equal 6, @cal.add(4,2)
   end  
 
+  def test_subtraction
+    assert_equal 2, @cal.subtract(8,6)
+  end
+
 end
